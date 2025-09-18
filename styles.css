@@ -218,6 +218,7 @@ font-weight: bold;
 
 .project__img {
     width : 100%;
+    transition: all 500ms ease;
 }
 
 .project__wrapper {
@@ -238,6 +239,7 @@ font-weight: bold;
     background-color: #1c1d25;
     opacity: 0;
     transition: opacity 450ms ease;
+    z-index: 2;
 }
 
 .project:hover .project__wrapper:before {
@@ -247,4 +249,25 @@ font-weight: bold;
 .project:hover .project__img {
     transform: scale(1.07);
     filter: blur(5px);
+}
+
+.project__list {
+    padding-top: 40px;
+}
+
+.project__description {
+    position: absolute;
+    top: 50%;
+    left: 90px;
+    transform: translateY(-50%);
+    max-width: 550px;
+    z-index: 3;
+}
+
+.project__description__title,
+.project__description__sub-title, 
+.project__description--para, 
+.project__description--link {
+    text-align: left;
+    color: #fff;
 }
