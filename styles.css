@@ -264,7 +264,11 @@ font-weight: bold;
     z-index: 3;
 }
 
-.project__description__title,
+.project__description__title{
+    font-size: 40px;
+}
+
+.project__description__title
 .project__description__sub-title, 
 .project__description--para, 
 .project__description--link {
