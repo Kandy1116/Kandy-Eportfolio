@@ -38,6 +38,7 @@ a {
     bottom: -3px;
     right: 0;
     transition: all 300ms ease;
+    background-color: #000;
 }
 
 .link__hover-effect--white:after {
@@ -45,7 +46,8 @@ a {
 }
 
 .link__hover-effect--black:after {
-    background-color: #000;
+    background-color: #000
+
 }
 
 .link__hover-effect:hover:after {
